@@ -1,0 +1,255 @@
+;/////////////////////////////////////////////////////////////////////////////////
+;// Code Generator: BoostC Compiler - http://www.sourceboost.com
+;// Version       : 6.96
+;// License Type  : Pro License
+;// Limitations   : PIC18 max code size:Unlimited, max RAM banks:Unlimited
+;/////////////////////////////////////////////////////////////////////////////////
+
+
+Map File
+
+Program Memory usage
+====================
+
+Address  Length   Unique Name      Name
+-------  ------   -----------      ----
+00000000:00000008 _resetvector     _resetvector  
+00000008:00000002 main             main(void)  
+0000000A:00000004 _startup_00000   _startup(void)  
+0000000E:00007FF2 *Unused Block 
+
+Register usage
+==============
+
+Address  Bit Lengh Bit Mask   Unique Name                      Name
+-------  --------- --------   -----------                      ----
+00000F00:00000008             gbl_rxf0sidh                     rxf0sidh
+00000F01:00000008             gbl_rxf0sidl                     rxf0sidl
+00000F02:00000008             gbl_rxf0eidh                     rxf0eidh
+00000F03:00000008             gbl_rxf0eidl                     rxf0eidl
+00000F04:00000008             gbl_rxf1sidh                     rxf1sidh
+00000F05:00000008             gbl_rxf1sidl                     rxf1sidl
+00000F06:00000008             gbl_rxf1eidh                     rxf1eidh
+00000F07:00000008             gbl_rxf1eidl                     rxf1eidl
+00000F08:00000008             gbl_rxf2sidh                     rxf2sidh
+00000F09:00000008             gbl_rxf2sidl                     rxf2sidl
+00000F0A:00000008             gbl_rxf2eidh                     rxf2eidh
+00000F0B:00000008             gbl_rxf2eidl                     rxf2eidl
+00000F0C:00000008             gbl_rxf3sidh                     rxf3sidh
+00000F0D:00000008             gbl_rxf3sidl                     rxf3sidl
+00000F0E:00000008             gbl_rxf3eidh                     rxf3eidh
+00000F0F:00000008             gbl_rxf3eidl                     rxf3eidl
+00000F10:00000008             gbl_rxf4sidh                     rxf4sidh
+00000F11:00000008             gbl_rxf4sidl                     rxf4sidl
+00000F12:00000008             gbl_rxf4eidh                     rxf4eidh
+00000F13:00000008             gbl_rxf4eidl                     rxf4eidl
+00000F14:00000008             gbl_rxf5sidh                     rxf5sidh
+00000F15:00000008             gbl_rxf5sidl                     rxf5sidl
+00000F16:00000008             gbl_rxf5eidh                     rxf5eidh
+00000F17:00000008             gbl_rxf5eidl                     rxf5eidl
+00000F18:00000008             gbl_rxm0sidh                     rxm0sidh
+00000F19:00000008             gbl_rxm0sidl                     rxm0sidl
+00000F1A:00000008             gbl_rxm0eidh                     rxm0eidh
+00000F1B:00000008             gbl_rxm0eidl                     rxm0eidl
+00000F1C:00000008             gbl_rxm1sidh                     rxm1sidh
+00000F1D:00000008             gbl_rxm1sidl                     rxm1sidl
+00000F1E:00000008             gbl_rxm1eidh                     rxm1eidh
+00000F1F:00000008             gbl_rxm1eidl                     rxm1eidl
+00000F20:00000008             gbl_txb2con                      txb2con
+00000F21:00000008             gbl_txb2sidh                     txb2sidh
+00000F22:00000008             gbl_txb2sidl                     txb2sidl
+00000F23:00000008             gbl_txb2eidh                     txb2eidh
+00000F24:00000008             gbl_txb2eidl                     txb2eidl
+00000F25:00000008             gbl_txb2dlc                      txb2dlc
+00000F26:00000008             gbl_txb2d0                       txb2d0
+00000F27:00000008             gbl_txb2d1                       txb2d1
+00000F28:00000008             gbl_txb2d2                       txb2d2
+00000F29:00000008             gbl_txb2d3                       txb2d3
+00000F2A:00000008             gbl_txb2d4                       txb2d4
+00000F2B:00000008             gbl_txb2d5                       txb2d5
+00000F2C:00000008             gbl_txb2d6                       txb2d6
+00000F2D:00000008             gbl_txb2d7                       txb2d7
+00000F2E:00000008             gbl_canstatro4                   canstatro4
+00000F30:00000008             gbl_txb1con                      txb1con
+00000F31:00000008             gbl_txb1sidh                     txb1sidh
+00000F32:00000008             gbl_txb1sidl                     txb1sidl
+00000F33:00000008             gbl_txb1eidh                     txb1eidh
+00000F34:00000008             gbl_txb1eidl                     txb1eidl
+00000F35:00000008             gbl_txb1dlc                      txb1dlc
+00000F36:00000008             gbl_txb1d0                       txb1d0
+00000F37:00000008             gbl_txb1d1                       txb1d1
+00000F38:00000008             gbl_txb1d2                       txb1d2
+00000F39:00000008             gbl_txb1d3                       txb1d3
+00000F3A:00000008             gbl_txb1d4                       txb1d4
+00000F3B:00000008             gbl_txb1d5                       txb1d5
+00000F3C:00000008             gbl_txb1d6                       txb1d6
+00000F3D:00000008             gbl_txb1d7                       txb1d7
+00000F3E:00000008             gbl_canstatro3                   canstatro3
+00000F40:00000008             gbl_txb0con                      txb0con
+00000F41:00000008             gbl_txb0sidh                     txb0sidh
+00000F42:00000008             gbl_txb0sidl                     txb0sidl
+00000F43:00000008             gbl_txb0eidh                     txb0eidh
+00000F44:00000008             gbl_txb0eidl                     txb0eidl
+00000F45:00000008             gbl_txb0dlc                      txb0dlc
+00000F46:00000008             gbl_txb0d0                       txb0d0
+00000F47:00000008             gbl_txb0d1                       txb0d1
+00000F48:00000008             gbl_txb0d2                       txb0d2
+00000F49:00000008             gbl_txb0d3                       txb0d3
+00000F4A:00000008             gbl_txb0d4                       txb0d4
+00000F4B:00000008             gbl_txb0d5                       txb0d5
+00000F4C:00000008             gbl_txb0d6                       txb0d6
+00000F4D:00000008             gbl_txb0d7                       txb0d7
+00000F4E:00000008             gbl_canstatro2                   canstatro2
+00000F50:00000008             gbl_rxb1con                      rxb1con
+00000F51:00000008             gbl_rxb1sidh                     rxb1sidh
+00000F52:00000008             gbl_rxb1sidl                     rxb1sidl
+00000F53:00000008             gbl_rxb1eidh                     rxb1eidh
+00000F54:00000008             gbl_rxb1eidl                     rxb1eidl
+00000F55:00000008             gbl_rxb1dlc                      rxb1dlc
+00000F56:00000008             gbl_rxb1d0                       rxb1d0
+00000F57:00000008             gbl_rxb1d1                       rxb1d1
+00000F58:00000008             gbl_rxb1d2                       rxb1d2
+00000F59:00000008             gbl_rxb1d3                       rxb1d3
+00000F5A:00000008             gbl_rxb1d4                       rxb1d4
+00000F5B:00000008             gbl_rxb1d5                       rxb1d5
+00000F5C:00000008             gbl_rxb1d6                       rxb1d6
+00000F5D:00000008             gbl_rxb1d7                       rxb1d7
+00000F5E:00000008             gbl_canstatro1                   canstatro1
+00000F60:00000008             gbl_rxb0con                      rxb0con
+00000F61:00000008             gbl_rxb0sidh                     rxb0sidh
+00000F62:00000008             gbl_rxb0sidl                     rxb0sidl
+00000F63:00000008             gbl_rxb0eidh                     rxb0eidh
+00000F64:00000008             gbl_rxb0eidl                     rxb0eidl
+00000F65:00000008             gbl_rxb0dlc                      rxb0dlc
+00000F66:00000008             gbl_rxb0d0                       rxb0d0
+00000F67:00000008             gbl_rxb0d1                       rxb0d1
+00000F68:00000008             gbl_rxb0d2                       rxb0d2
+00000F69:00000008             gbl_rxb0d3                       rxb0d3
+00000F6A:00000008             gbl_rxb0d4                       rxb0d4
+00000F6B:00000008             gbl_rxb0d5                       rxb0d5
+00000F6C:00000008             gbl_rxb0d6                       rxb0d6
+00000F6D:00000008             gbl_rxb0d7                       rxb0d7
+00000F6E:00000008             gbl_canstat                      canstat
+00000F6F:00000008             gbl_cancon                       cancon
+00000F70:00000008             gbl_brgcon1                      brgcon1
+00000F71:00000008             gbl_brgcon2                      brgcon2
+00000F72:00000008             gbl_brgcon3                      brgcon3
+00000F73:00000008             gbl_ciocon                       ciocon
+00000F74:00000008             gbl_comstat                      comstat
+00000F75:00000008             gbl_rxerrcnt                     rxerrcnt
+00000F76:00000008             gbl_txerrcnt                     txerrcnt
+00000F80:00000008             gbl_porta                        porta
+00000F81:00000008             gbl_portb                        portb
+00000F82:00000008             gbl_portc                        portc
+00000F83:00000008             gbl_portd                        portd
+00000F84:00000008             gbl_porte                        porte
+00000F89:00000008             gbl_lata                         lata
+00000F8A:00000008             gbl_latb                         latb
+00000F8B:00000008             gbl_latc                         latc
+00000F8C:00000008             gbl_latd                         latd
+00000F8D:00000008             gbl_late                         late
+00000F92:00000008             gbl_trisa                        trisa
+00000F93:00000008             gbl_trisb                        trisb
+00000F94:00000008             gbl_trisc                        trisc
+00000F95:00000008             gbl_trisd                        trisd
+00000F96:00000008             gbl_trise                        trise
+00000F9D:00000008             gbl_pie1                         pie1
+00000F9E:00000008             gbl_pir1                         pir1
+00000F9F:00000008             gbl_ipr1                         ipr1
+00000FA0:00000008             gbl_pie2                         pie2
+00000FA1:00000008             gbl_pir2                         pir2
+00000FA2:00000008             gbl_ipr2                         ipr2
+00000FA3:00000008             gbl_pie3                         pie3
+00000FA4:00000008             gbl_pir3                         pir3
+00000FA5:00000008             gbl_ipr3                         ipr3
+00000FA6:00000008             gbl_eecon1                       eecon1
+00000FA7:00000008             gbl_eecon2                       eecon2
+00000FA8:00000008             gbl_eedata                       eedata
+00000FA9:00000008             gbl_eeadr                        eeadr
+00000FAB:00000008             gbl_rcsta                        rcsta
+00000FAC:00000008             gbl_txsta                        txsta
+00000FAD:00000008             gbl_txreg                        txreg
+00000FAE:00000008             gbl_rcreg                        rcreg
+00000FAF:00000008             gbl_spbrg                        spbrg
+00000FB1:00000008             gbl_t3con                        t3con
+00000FB2:00000008             gbl_tmr3l                        tmr3l
+00000FB3:00000008             gbl_tmr3h                        tmr3h
+00000FB4:00000008             gbl_cmcon                        cmcon
+00000FB5:00000008             gbl_cvrcon                       cvrcon
+00000FB6:00000008             gbl_eccpas                       eccpas
+00000FB7:00000008             gbl_eccp1del                     eccp1del
+00000FBA:00000008             gbl_eccp1con                     eccp1con
+00000FBB:00000008             gbl_eccpr1l                      eccpr1l
+00000FBC:00000008             gbl_eccpr1h                      eccpr1h
+00000FBD:00000008             gbl_ccp1con                      ccp1con
+00000FBE:00000008             gbl_ccpr1l                       ccpr1l
+00000FBF:00000008             gbl_ccpr1h                       ccpr1h
+00000FC1:00000008             gbl_adcon1                       adcon1
+00000FC2:00000008             gbl_adcon0                       adcon0
+00000FC3:00000008             gbl_adresl                       adresl
+00000FC4:00000008             gbl_adresh                       adresh
+00000FC5:00000008             gbl_sspcon2                      sspcon2
+00000FC6:00000008             gbl_sspcon1                      sspcon1
+00000FC7:00000008             gbl_sspstat                      sspstat
+00000FC8:00000008             gbl_sspadd                       sspadd
+00000FC9:00000008             gbl_sspbuf                       sspbuf
+00000FCA:00000008             gbl_t2con                        t2con
+00000FCB:00000008             gbl_pr2                          pr2
+00000FCC:00000008             gbl_tmr2                         tmr2
+00000FCD:00000008             gbl_t1con                        t1con
+00000FCE:00000008             gbl_tmr1l                        tmr1l
+00000FCF:00000008             gbl_tmr1h                        tmr1h
+00000FD0:00000008             gbl_rcon                         rcon
+00000FD1:00000008             gbl_wdtcon                       wdtcon
+00000FD2:00000008             gbl_lvdcon                       lvdcon
+00000FD3:00000008             gbl_osccon                       osccon
+00000FD5:00000008             gbl_t0con                        t0con
+00000FD6:00000008             gbl_tmr0l                        tmr0l
+00000FD7:00000008             gbl_tmr0h                        tmr0h
+00000FD8:00000008             gbl_status                       status
+00000FD9:00000008             gbl_fsr2l                        fsr2l
+00000FDA:00000008             gbl_fsr2h                        fsr2h
+00000FDB:00000008             gbl_plusw2                       plusw2
+00000FDC:00000008             gbl_preinc2                      preinc2
+00000FDD:00000008             gbl_postdec2                     postdec2
+00000FDE:00000008             gbl_postinc2                     postinc2
+00000FDF:00000008             gbl_indf2                        indf2
+00000FE0:00000008             gbl_bsr                          bsr
+00000FE1:00000008             gbl_fsr1l                        fsr1l
+00000FE2:00000008             gbl_fsr1h                        fsr1h
+00000FE3:00000008             gbl_plusw1                       plusw1
+00000FE4:00000008             gbl_preinc1                      preinc1
+00000FE5:00000008             gbl_postdec1                     postdec1
+00000FE6:00000008             gbl_postinc1                     postinc1
+00000FE7:00000008             gbl_indf1                        indf1
+00000FE8:00000008             gbl_wreg                         wreg
+00000FE9:00000008             gbl_fsr0l                        fsr0l
+00000FEA:00000008             gbl_fsr0h                        fsr0h
+00000FEB:00000008             gbl_plusw0                       plusw0
+00000FEC:00000008             gbl_preinc0                      preinc0
+00000FED:00000008             gbl_postdec0                     postdec0
+00000FEE:00000008             gbl_postinc0                     postinc0
+00000FEF:00000008             gbl_indf0                        indf0
+00000FF0:00000008             gbl_intcon3                      intcon3
+00000FF1:00000008             gbl_intcon2                      intcon2
+00000FF2:00000008             gbl_intcon1                      intcon1
+00000FF3:00000008             gbl_prodl                        prodl
+00000FF4:00000008             gbl_prodh                        prodh
+00000FF5:00000008             gbl_tablat                       tablat
+00000FF6:00000008             gbl_tblptrl                      tblptrl
+00000FF7:00000008             gbl_tblptrh                      tblptrh
+00000FF8:00000008             gbl_tblptru                      tblptru
+00000FF9:00000008             gbl_pcl                          pcl
+00000FFA:00000008             gbl_pclath                       pclath
+00000FFB:00000008             gbl_pclatu                       pclatu
+00000FFC:00000008             gbl_stkptr                       stkptr
+00000FFD:00000008             gbl_tosl                         tosl
+00000FFE:00000008             gbl_tosh                         tosh
+00000FFF:00000008             gbl_tosu                         tosu
+
+
+Memory Usage Report
+===================
+RAM available:1536 bytes, used:1 bytes (0.1%), free:1535 bytes (99.9%), 
+Heap size:1535 bytes, Heap max single alloc:127 bytes
+ROM available:32768 bytes, used:14 bytes (0.1%), free:32754 bytes (99.9%)

@@ -1,0 +1,150 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Nets
+WARNING:  [DRC0006]  Net has fewer than two connections _NC34
+                    SCHEMATIC1, MICROCONTROLLER  (7.40, 4.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections _NC12
+                    SCHEMATIC1, MICROCONTROLLER  (7.10, 4.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections _NC13
+                    SCHEMATIC1, MICROCONTROLLER  (7.20, 4.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections _NC33
+                    SCHEMATIC1, MICROCONTROLLER  (7.30, 4.90) 
+WARNING:  [DRC0006]  Net has fewer than two connections _NC5
+                    SCHEMATIC1, POWER SUPPLY  (3.30, 4.80) 
+WARNING:  [DRC0006]  Net has fewer than two connections _NC9
+                    SCHEMATIC1, POWER SUPPLY  (5.40, 1.20) 
+WARNING:  [DRC0006]  Net has fewer than two connections _NC8
+                    SCHEMATIC1, POWER SUPPLY  (5.30, 1.20) 
+WARNING:  [DRC0006]  Net has fewer than two connections EN_V9SW
+                    SCHEMATIC1, MICROCONTROLLER  (8.30, 4.20) 
+
+Checking Off-Page Connections
+WARNING:  [DRC0009]  No matching off-page connector EN_V9SW
+                    SCHEMATIC1, MICROCONTROLLER  (9.30, 4.20) 
+
+Checking for Invalid References
+
+Checking for Duplicate References
+
+Reporting Net Names
+    VDD2
+    N35710
+    N35666
+    N38309
+    N35678
+    N35630
+    N35626
+    N37352
+    N35974
+    N37330
+    N37544
+    N37348
+    N37574
+    SQ5M
+    SQ1M
+    SQ500K
+    SQ100K
+    MCLR
+    N2389890
+    N3004042
+    SW_CMOS
+    MCLR1
+    PGC
+    RC4
+    RXD
+    SW_COMB
+    EN_DIST
+    N2999488
+    N3008634
+    OSC1
+    SW_DIST
+    SW_SPARE
+    CG_S2
+    RC3
+    RC1
+    V_TBASE
+    WS2811
+    EN_DIV
+    PGD
+    TXD
+    RC0
+    CG_S0
+    CG_EN
+    OSC2
+    CG_S1
+    _NC34
+    _NC12
+    _NC13
+    _NC33
+    RB_BITE
+    N3006526
+    V_LAMPV
+    N14817
+    N3006603
+    N2997178
+    N3060793
+    N3060797
+    N3061007
+    N3014589
+    N2997162
+    N3060829
+    N3061055
+    N3060825
+    EN_DIG
+    SQ10M
+    N3056777
+    N3056881
+    N3056959
+    N3056781
+    N3025061
+    N3024965
+    N3024630
+    N3024682
+    N3036443
+    N3052188
+    RB_OUT
+    N3037565
+    N3058807
+    N3050326
+    N3050255
+    N3050880
+    N3050913
+    N3050385
+    N3050369
+    N3050446
+    N3050430
+    N3039376
+    N3080074
+    N03456
+    N03943
+    N04036
+    _NC5
+    N2940742
+    V24SW
+    EN_V24SW
+    N2974767
+    V24
+    N03188
+    _NC9
+    _NC8
+    N05573
+    N09067
+    N16119
+    EN_V9SW
+    V_I24SW
+    N2975017
+    V_V24SW
+    N11760
+    V_V24
+    N2978943
+    VDD
+    GND
+    VPRE
+    V9SW
+    V_V9SW

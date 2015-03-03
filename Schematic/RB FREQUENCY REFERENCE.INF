@@ -1,0 +1,769 @@
+`F  1.00 SCHEMATIC1
+`B "4" "4" "B" "Monday, January 19, 2015" "TJL2015-001" "0"
+"Rb Ref - Comb Generator" ""
+""
+""
+""
+""
+`P S "_NC12"
+`P S "_NC34"
+`P S "VDD"
+`P S "VCC"
+`P S "_NC13"
+`P S "V24"
+`P S "_NC5"
+`P S "_NC8"
+`P S "N03456"
+`P S "_NC9"
+`P S "V24SW"
+`P S "V9SW"
+`P S "GND"
+`P S "VPRE"
+`P S "_NC33"
+`S "N35710" 5545
+`S "N35666" 5534
+`S "N38309" 5546
+`S "N35678" 5531
+`S "N35630" 5542
+`S "N35626" 5538
+`S "N37352" 5550
+`S "N35974" 8104
+`S "N37330" 5547
+`S "N37544" 5536
+`S "N37348" 5551
+`S "N37574" 5548
+`S "SQ5M" 11868
+`S "SQ1M" 11869
+`S "SQ500K" 11870
+`S "SQ100K" 11871
+`S "MCLR" 6947
+`S "COMB100" 4853
+`S "N2389890" 6070
+`S "N3004042" 8091
+`S "SW_CMOS" 4844
+`S "MCLR1" 8096
+`S "PGC" 6946
+`S "RC4" 8413
+`S "RXD" 8093
+`S "SW_COMB" 4846
+`S "EN_DIST" 8095
+`S "N2999488" 8094
+`S "N3008634" 8417
+`S "OSC1" 6943
+`S "SW_DIST" 4845
+`S "SW_SPARE" 8412
+`S "CG_S2" 8101
+`S "RC3" 8415
+`S "RC1" 8414
+`S "V_TBASE" 6949
+`S "WS2811" 8092
+`S "EN_DIV" 11679
+`S "PGD" 6945
+`S "TXD" 8097
+`S "RC0" 8416
+`S "CG_S0" 8102
+`S "CG_EN" 8100
+`S "OSC2" 6944
+`S "CG_S1" 8103
+`S "RB_BITE" 4847
+`S "N3006526" 8422
+`S "V_LAMPV" 6795
+`S "N14817" 11337
+`S "N3006603" 8419
+`S "N2997178" 11655
+`S "N3060793" 11580
+`S "N3060797" 11578
+`S "N3061007" 11577
+`S "N3014589" 8506
+`S "N2997162" 11656
+`S "N3060829" 11579
+`S "N3061055" 11576
+`S "N3060825" 11581
+`S "EN_DIG" 6781
+`S "N3056813" 11340
+`S "SQ10M" 11867
+`S "N3056777" 11342
+`S "N3056881" 11654
+`S "N3056959" 11653
+`S "N3056781" 11338
+`S "N3025061" 10079
+`S "N3024965" 10080
+`S "N3024630" 10082
+`S "N3024682" 10084
+`S "N3036443" 10701
+`S "N3052188" 11210
+`S "RB_OUT" 4850
+`S "N3037565" 10830
+`S "N3058807" 11343
+`S "N3050326" 10829
+`S "N3050255" 10826
+`S "N3050880" 10831
+`S "N3050913" 10832
+`S "N3050385" 10828
+`S "N3050369" 11344
+`S "N3050446" 10833
+`S "N3050430" 10834
+`S "N3039376" 11339
+`S "N3080074" 11866
+`S "N03456" 4838
+`S "N03943" 4832
+`S "N04036" 4828
+`S "N2940742" 6068
+`S "EN_V24SW" 4840
+`S "N2974767" 7454
+`S "N03188" 4833
+`S "N05573" 6774
+`S "N09067" 4830
+`S "N16119" 4827
+`S "EN_V9SW" 4834
+`S "V_I24SW" 7397
+`S "N2975017" 7168
+`S "V_V24SW" 4839
+`S "N11760" 7396
+`S "V_V24" 4829
+`S "N2978943" 7394
+`S "V_V9SW" 7393
+`E LATCH.LIB
+`E CONNECTOR.LIB
+`E DISCRETE.LIB
+`E GATE.LIB
+`E MUXDECODER.LIB
+`E CUSTOM.LIB
+`E REGULATOR.LIB
+`E LIBRARY1.LIB
+`E COUNTER.LIB
+`E RB FREQUENCY REFERENCE.LIB
+`E CARB SYNC TOOL.LIB
+`I R "100 1/2W" DISCRETE.LIB "RESISTOR" 00004CFD R25  [1]
+"" "" "" "" "" "" "" "AXIAL0.5" "AXIAL0.5"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "MUN2211" RB FREQUENCY REFERENCE.LIB "NPN_I_EBC_1" 00004299 Q6  [1]
+"" "" "" "" "" "" "" "SOT-23" "SOT-23"
+( "B" 1 P ) ( "C" 3 P ) ( "E" 2 P ) 
+`I R "MMBTA06" RB FREQUENCY REFERENCE.LIB "NPN BEC_0" 002D9DEC Q7  [1]
+"" "" "" "" "" "" "" "SOT-23" "SOT-23"
+( "B" 1 P ) ( "C" 3 P ) ( "E" 2 P ) 
+`I R "120" DISCRETE.LIB "RESISTOR" 002DC4E4 R26  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "100 1/2W" DISCRETE.LIB "RESISTOR" 00004D21 R27  [1]
+"" "" "" "" "" "" "" "AXIAL0.5" "AXIAL0.5"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "MMBTA06" RB FREQUENCY REFERENCE.LIB "NPN BEC_0" 002D9F4E Q8  [1]
+"" "" "" "" "" "" "" "SOT-23" "SOT-23"
+( "B" 1 P ) ( "C" 3 P ) ( "E" 2 P ) 
+`I R "MMBTA06" RB FREQUENCY REFERENCE.LIB "NPN BEC_0" 002D9FCE Q9  [1]
+"" "" "" "" "" "" "" "SOT-23" "SOT-23"
+( "B" 1 P ) ( "C" 3 P ) ( "E" 2 P ) 
+`I R "100 1/2W" DISCRETE.LIB "RESISTOR" 002DE98F R28  [1]
+"" "" "" "" "" "" "" "AXIAL0.5" "AXIAL0.5"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "10K" DISCRETE.LIB "R" 0002F737 R29  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "0.1uF" DISCRETE.LIB "CAPACITOR" 002D53D2 C20  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "1000uF 50V" DISCRETE.LIB "CAPACITOR POL" 00001DFF C21  [1]
+"" "" "" "" "" "" "" "RB18/8" "RB18/8"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "1000uF 25V" DISCRETE.LIB "CAPACITOR POL" 00001DE9 C22  [1]
+"" "" "" "" "" "" "" "RB18/8" "RB18/8"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "3dB ATTEN" CUSTOM.LIB "ATTEN" 002EAEEC X1  [1]
+"" "" "" "" "" "" "" "PAT1220" "PAT1220"
+( "A" 1 P ) ( "GND" 3 P ) ( "B" 2 P ) 
+`I R "3dB ATTEN" CUSTOM.LIB "ATTEN" 002EAF0C X2  [1]
+"" "" "" "" "" "" "" "PAT1220" "PAT1220"
+( "A" 1 P ) ( "GND" 3 P ) ( "B" 2 P ) 
+`I R "1000uF 25V" DISCRETE.LIB "CAPACITOR POL" 002EDBE7 C23  [1]
+"" "" "" "" "" "" "" "RB18/8" "RB18/8"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "0.1uF" DISCRETE.LIB "CAPACITOR" 0000AD15 C24  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "SCP-2-2" CUSTOM.LIB "SCP-2-2" 002E89E5 X3  [1]
+"" "" "" "" "" "" "" "CX4012" "CX4012"
+( "S" 3 P ) ( "GND" 1 P ) ( "P1" 2 P ) ( "P2" 4 P ) 
+`I R "74AC74/SO" LATCH.LIB "74AC74/SO" 00008BAA U1  [11]
+"" "" "" "" "" "" "" "SO-14" "SO-14"
+( "C\L\R\_A" 1 I ) ( "D_A" 2 I ) ( "CLK_A" 3 I ) ( "P\R\E\_A" 4 I ) ( "Q_A" 5 O ) 
+( "Q\_A" 6 O ) ( "GND" 7 S ) ( "VCC" 14 S ) ( "C\L\R\_B" 13 I ) ( "D_B" 12 I ) 
+( "CLK_B" 11 I ) ( "P\R\E\_B" 10 I ) ( "Q_B" 9 O ) ( "Q\_B" 8 O ) 
+`I R "AN6" CONNECTOR.LIB "TEST POINT" 002DE88C TP10  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "RESET" CONNECTOR.LIB "TEST POINT" 002AC642 TP11  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "0.1uF" DISCRETE.LIB "CAPACITOR" 0000AB0E C25  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "74HCT151" MUXDECODER.LIB "74HCT151" 0000923C U2  [1]
+"" "" "" "" "" "" "" "SO-16" "SO-16"
+( "D0" 4 I ) ( "D1" 3 I ) ( "D2" 2 I ) ( "D3" 1 I ) ( "D4" 15 I ) 
+( "D5" 14 I ) ( "D6" 13 I ) ( "D7" 12 I ) ( "A" 11 I ) ( "B" 10 I ) 
+( "C" 9 I ) ( "G\" 7 I ) ( "Y\" 6 O ) ( "Y" 5 O ) ( "VCC" 16 S ) 
+( "GND" 8 S ) 
+`I R "3dB ATTEN" CUSTOM.LIB "ATTEN" 002EAE52 X4  [1]
+"" "" "" "" "" "" "" "PAT1220" "PAT1220"
+( "A" 1 P ) ( "GND" 3 P ) ( "B" 2 P ) 
+`I R "1000uF 10V" DISCRETE.LIB "CAPACITOR POL" 00002D27 C26  [1]
+"" "" "" "" "" "" "" "SMTALIC10MM" "SMTALIC10MM"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "VPRE" CONNECTOR.LIB "TEST POINT" 002CF588 TP12  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "510" DISCRETE.LIB "RESISTOR" 00008B22 R1  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "100" DISCRETE.LIB "R" 0004B0E6 R30  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "74HCT390" COUNTER.LIB "74HCT390" 000090F2 U3  [11]
+"" "" "" "" "" "" "" "SO-16" "SO-16"
+( "C\K\A\_A" 1 I ) ( "C\K\B\_A" 4 I ) ( "CLR_A" 2 I ) ( "QA_A" 3 O ) ( "QB_A" 5 O ) 
+( "QC_A" 6 O ) ( "QD_A" 7 O ) ( "VCC" 16 S ) ( "GND" 8 S ) ( "C\K\A\_B" 15 I ) 
+( "C\K\B\_B" 12 I ) ( "CLR_B" 14 I ) ( "QA_B" 13 O ) ( "QB_B" 11 O ) ( "QC_B" 10 O ) 
+( "QD_B" 9 O ) 
+`I R "SCP-4-4-75" CUSTOM.LIB "SCP-4-4-75" 002E03D4 X5  [1]
+"" "" "" "" "" "" "" "SCP-4-4" "SCP-4-4"
+( "S" 3 P ) ( "GND" 1 P ) ( "GND" 5 P ) ( "GND" 7 P ) ( "P1" 2 P ) 
+( "P2" 4 P ) ( "P3" 6 P ) ( "P4" 8 P ) 
+`I R "74HCT138" MUXDECODER.LIB "74HCT138" 0000929C U4  [1]
+"" "" "" "" "" "" "" "SO-16" "SO-16"
+( "A" 1 I ) ( "B" 2 I ) ( "C" 3 I ) ( "Y\0\" 15 O ) ( "Y\1\" 14 O ) 
+( "Y\2\" 13 O ) ( "Y\3\" 12 O ) ( "Y\4\" 11 O ) ( "Y\5\" 10 O ) ( "Y\6\" 9 O ) 
+( "Y\7\" 7 O ) ( "VCC" 16 S ) ( "GND" 8 S ) ( "G1" 6 I ) ( "G\2\A\" 4 I ) 
+( "G\2\B\" 5 I ) 
+`I R "51" DISCRETE.LIB "RESISTOR" 00008CC6 R2  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "5VDC" CONNECTOR.LIB "TEST POINT" 002CF52B TP13  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "470uF 25V" DISCRETE.LIB "CAPACITOR POL" 00002525 C27  [1]
+"" "" "" "" "" "" "" "SMTALIC10MM" "SMTALIC10MM"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "200" RB FREQUENCY REFERENCE.LIB "POT_0" 002CDF3A R31  [1]
+"" "" "" "" "" "" "" "VR1" "VR1"
+( "A" 1 P ) ( "B" 3 P ) ( "WIPER" 2 P ) 
+`I R "3dB ATTEN" CUSTOM.LIB "ATTEN" 002EAF2C X6  [1]
+"" "" "" "" "" "" "" "PAT1220" "PAT1220"
+( "A" 1 P ) ( "GND" 3 P ) ( "B" 2 P ) 
+`I R "47pF" DISCRETE.LIB "CAPACITOR" 0000157E C28  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "V24" CONNECTOR.LIB "TEST POINT" 002D5CD1 TP14  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "3K" DISCRETE.LIB "RESISTOR" 002EC72E R3  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "120" DISCRETE.LIB "RESISTOR" 002CDF5A R32  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "3dB ATTEN" CUSTOM.LIB "ATTEN" 002EAF4A X7  [1]
+"" "" "" "" "" "" "" "PAT1220" "PAT1220"
+( "A" 1 P ) ( "GND" 3 P ) ( "B" 2 P ) 
+`I R "BGA3018" CUSTOM.LIB "BGA3015" 002E1E3E U5  [1]
+"" "" "" "" "" "" "" "SOT-89" "SOT-89"
+( "IN" 1 P ) ( "OUT" 3 P ) ( "GND" 2 S ) 
+`I R "3K" DISCRETE.LIB "RESISTOR" 00000EA9 R33  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "3K" DISCRETE.LIB "RESISTOR" 002EC816 R4  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "3dB ATTEN" CUSTOM.LIB "ATTEN" 002EFF64 X8  [1]
+"" "" "" "" "" "" "" "PAT1220" "PAT1220"
+( "A" 1 P ) ( "GND" 3 P ) ( "B" 2 P ) 
+`I R "V24SW" CONNECTOR.LIB "TEST POINT" 002CF5D4 TP15  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "74AC08" GATE.LIB "74AC08" 002EA4CD U6  [1111]
+"" "" "" "" "" "" "" "SO-14" "SO-14"
+( "A_A" 1 I ) ( "B_A" 2 I ) ( "Y_A" 3 O ) ( "VCC" 14 S ) ( "GND" 7 S ) 
+( "A_B" 4 I ) ( "B_B" 5 I ) ( "Y_B" 6 O ) ( "A_C" 9 I ) ( "B_C" 10 I ) 
+( "Y_C" 8 O ) ( "A_D" 12 I ) ( "B_D" 13 I ) ( "Y_D" 11 O ) 
+`I R "120" DISCRETE.LIB "RESISTOR" 00008B4A R5  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "22uH" DISCRETE.LIB "INDUCTOR" 002E2765 L1  [1]
+"" "" "" "" "" "" "" "L3216" "L3216"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "PIC16F887PT" RB FREQUENCY REFERENCE.LIB "PIC16F887PT_0" 00000481 U7  [1]
+"" "" "" "" "" "" "" "TQFP44" "TQFP44"
+( "RE0/AN5" 25 B ) ( "RE1/AN6" 26 B ) ( "RE2/AN7" 27 B ) ( "GND" 6 S ) ( "RA6/OSC2/CLKOUT" 31 P ) 
+( "RC0/T1OSO/T1CKI" 32 B ) ( "RC1/T1OSI/CCP2" 35 B ) ( "RC2/P1A/CCP1" 36 B ) ( "RC3/SCK/SCL" 37 B ) ( "RD0" 38 B ) 
+( "RD1" 39 B ) ( "RD2" 40 B ) ( "RD3" 41 B ) ( "RC4/SDI/SDA" 42 B ) ( "RC5/SDO" 43 B ) 
+( "RC6/TX/CK" 44 B ) ( "RC7/RX/DT" 1 B ) ( "RD4" 2 B ) ( "RD5/P1B" 3 B ) ( "RD6/P1C" 4 B ) 
+( "RD7/P1D" 5 B ) ( "GND" 29 S ) ( "RE3/M\C\L\R\" 18 I ) ( "RA7/OSC1/CLKIN" 30 P ) ( "RA0/AN0" 19 B ) 
+( "RA1/AN1" 20 B ) ( "RA2/AN2/VREF-" 21 B ) ( "RA3/AN3/VREF+" 22 B ) ( "RA4/TOCKI" 23 B ) ( "RA5/AN4/S\S\" 24 B ) 
+( "RBO/AN12/INT" 8 B ) ( "RB1/AN10" 9 B ) ( "RB2/AN8" 10 B ) ( "RB3/AN9/PGM" 11 B ) ( "RB4/AN11" 14 B ) 
+( "RB5/AN13" 15 B ) ( "RB6/ICSPCLK" 16 B ) ( "RB7/ICSPDAT" 17 B ) ( "VDD" 7 S ) ( "VDD" 28 S ) 
+( "_NC12" 12 S ) ( "_NC13" 13 S ) ( "_NC33" 33 S ) ( "_NC34" 34 S ) 
+`I R "V9SW" CONNECTOR.LIB "TEST POINT" 002CF567 TP16  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "1K" DISCRETE.LIB "RESISTOR" 00003E8D R34  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "120" DISCRETE.LIB "RESISTOR" 0000237F R35  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "4.7uH" DISCRETE.LIB "INDUCTOR" 002EA52D L2  [1]
+"" "" "" "" "" "" "" "L3216" "L3216"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "300" DISCRETE.LIB "RESISTOR" 002E2605 R6  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "SQ10M" CONNECTOR.LIB "TEST POINT" 002EA501 TP1  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "ZXCM209LE5" CARB SYNC TOOL.LIB "MC33064/SO_0" 002AC49C U8  [1]
+"" "" "" "" "" "" "" "SOT-23-5" "SOT-23-5"
+( "R\S\T\" 1 C ) ( "IN" 2 I ) ( "GND" 3 S ) ( "N.C." 4 P ) ( "N.C." 5 P ) 
+
+`I R "3K" DISCRETE.LIB "RESISTOR" 00000FB4 R36  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "300" DISCRETE.LIB "RESISTOR" 002E25EF R7  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "MPM01" CUSTOM.LIB "MPM01" 0000099A U9  [1]
+"" "" "" "" "" "" "" "SANKEN9" "SANKEN9"
+( "VIN" 2 S ) ( "GND" 1 S ) ( "GND" 3 S ) ( "FB" 4 I ) ( "_NC8" 8 S ) 
+( "_NC9" 9 S ) ( "VOUT" 5 O ) ( "VOUT" 6 O ) ( "VOUT" 7 O ) 
+`I R "SINE" CONNECTOR.LIB "TEST POINT" 002EA4E9 TP2  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "3K" DISCRETE.LIB "RESISTOR" 00000FFF R37  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "LAMPV" CONNECTOR.LIB "TEST POINT" 002E1E1A TP3  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "150" DISCRETE.LIB "RESISTOR" 002E92D0 R8  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "RC0" CONNECTOR.LIB "TEST POINT" 002DF580 TP4  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "150" DISCRETE.LIB "RESISTOR" 002E92F9 R9  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "1K" DISCRETE.LIB "RESISTOR" 00000D31 R38  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "RC1" CONNECTOR.LIB "TEST POINT" 002DF56C TP5  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "CMOS3" CONNECTOR.LIB "CON2" 002EB553 J10  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "1K" RB FREQUENCY REFERENCE.LIB "POT_0" 000025C3 R39  [1]
+"" "" "" "" "" "" "" "VR1" "VR1"
+( "A" 1 P ) ( "B" 3 P ) ( "WIPER" 2 P ) 
+`I R "DIG_LED" CONNECTOR.LIB "CON2" 002DB9FD J11  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "4.7pF" DISCRETE.LIB "CAPACITOR" 00008C9A C1  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "RC3" CONNECTOR.LIB "TEST POINT" 002DF6B1 TP6  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "RC4" CONNECTOR.LIB "TEST POINT" 002DF69D TP7  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "DIST_LED" CONNECTOR.LIB "CON2" 002DFFF5 J12  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "0.1uF" DISCRETE.LIB "CAPACITOR" 00008C76 C2  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "220uF 6.3V TANT" DISCRETE.LIB "CAPACITOR POL" 002D9D2D C3  [1]
+"" "" "" "" "" "" "" "SMTALIC10MM" "SMTALIC10MM"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "DIST SW" CONNECTOR.LIB "CON2" 00003B99 J13  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "TXD" CONNECTOR.LIB "TEST POINT" 002DDAA3 TP8  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "NEOPIXEL" CONNECTOR.LIB "CON4" 002DD74B J14  [1]
+"" "" "" "" "" "" "" "HEADER4" "HEADER4"
+( "1" 1 P ) ( "2" 2 P ) ( "3" 3 P ) ( "4" 4 P ) 
+`I R "0.1uF" DISCRETE.LIB "CAPACITOR" 002CF8E1 C4  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "RXD" CONNECTOR.LIB "TEST POINT" 002DDAB7 TP9  [1]
+"" "" "" "" "" "" "" "TESTPT" "TESTPT"
+( "1" 1 P ) 
+`I R "CMOS SW" CONNECTOR.LIB "CON2" 00003BAF J15  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "0.1uF" DISCRETE.LIB "CAPACITOR" 002CF975 C5  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "COMB SW" CONNECTOR.LIB "CON2" 00003C07 J16  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "0.1uF" DISCRETE.LIB "CAPACITOR" 002CF9BB C6  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "SPARE SW" CONNECTOR.LIB "CON2" 002DE965 J17  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "0.1uF" DISCRETE.LIB "CAPACITOR" 002CF9A3 C7  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "10nF" DISCRETE.LIB "CAP" 002E27C0 C8  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "ICSP" CONNECTOR.LIB "CON6" 0002F321 J18  [1]
+"" "" "" "" "" "" "" "HEADER6" "HEADER6"
+( "1" 1 P ) ( "2" 2 P ) ( "3" 3 P ) ( "4" 4 P ) ( "5" 5 P ) 
+( "6" 6 P ) 
+`I R "BASE TEMP" CONNECTOR.LIB "CON3" 002D3843 J19  [1]
+"" "" "" "" "" "" "" "HEADER3" "HEADER3"
+( "1" 1 P ) ( "2" 2 P ) ( "3" 3 P ) 
+`I R "100pF" DISCRETE.LIB "CAP" 002E27D6 C9  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "PBRC16.00HR" LIBRARY1.LIB "RESONATOR-CAP" 000FE1E5 Y1  [1]
+"" "" "" "" "" "" "" "SMDPBRC" "SMDPBRC"
+( "1" 1 P ) ( "2" 2 P ) ( "3" 3 P ) 
+`I R "3K" DISCRETE.LIB "RESISTOR" 002D61E2 R41  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "3K" DISCRETE.LIB "RESISTOR" 00002E04 R42  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "3K" DISCRETE.LIB "RESISTOR" 002EA575 R10  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "3K" DISCRETE.LIB "RESISTOR" 002D7477 R43  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "33" DISCRETE.LIB "RESISTOR" 002EA5CD R11  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "3K" DISCRETE.LIB "RESISTOR" 002EA455 R12  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "1K" DISCRETE.LIB "RESISTOR" 002F06E7 R44  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "1K" DISCRETE.LIB "RESISTOR" 002D7690 R45  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "300" DISCRETE.LIB "RESISTOR" 002EBE48 R13  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "COMB_OUT" CONNECTOR.LIB "CON2" 00008C16 J1  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "33" DISCRETE.LIB "RESISTOR" 002EB431 R14  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "10K" DISCRETE.LIB "RESISTOR" 00001210 R46  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "300" DISCRETE.LIB "RESISTOR" 00002E20 R47  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "COMB_LEDS" CONNECTOR.LIB "CON10A" 002DCC2D J2  [1]
+"" "" "" "" "" "" "" "HEADER2X5" "HEADER2X5"
+( "1" 1 P ) ( "2" 2 P ) ( "3" 3 P ) ( "4" 4 P ) ( "5" 5 P ) 
+( "6" 6 P ) ( "7" 7 P ) ( "8" 8 P ) ( "9" 9 P ) ( "10" 10 P ) 
+
+`I R "3K" DISCRETE.LIB "RESISTOR" 002EA4A5 R15  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "300" DISCRETE.LIB "RESISTOR" 002D74AF R48  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "33" DISCRETE.LIB "RESISTOR" 002EB507 R16  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "DIST1" CONNECTOR.LIB "CON2" 002E021E J3  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "DIST2" CONNECTOR.LIB "CON2" 002E576C J4  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "POWER" CONNECTOR.LIB "CON6" 00000756 J20  [1]
+"" "" "" "" "" "" "" "MTA156-6" "MTA156-6"
+( "1" 1 P ) ( "2" 2 P ) ( "3" 3 P ) ( "4" 4 P ) ( "5" 5 P ) 
+( "6" 6 P ) 
+`I R "300" DISCRETE.LIB "RESISTOR" 002D6083 R49  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "3K" DISCRETE.LIB "RESISTOR" 002DE036 R17  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "DIST3" CONNECTOR.LIB "CON2" 002E580B J5  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "33" DISCRETE.LIB "RESISTOR" 002EB533 R18  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "1K" DISCRETE.LIB "RESISTOR" 002DFFD9 R19  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "DIST3" CONNECTOR.LIB "CON2" 002E8AC3 J6  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "LPRO101" CONNECTOR.LIB "CON10A" 0000385C J7  [1]
+"" "" "" "" "" "" "" "HEADER2X5" "HEADER2X5"
+( "1" 1 P ) ( "2" 2 P ) ( "3" 3 P ) ( "4" 4 P ) ( "5" 5 P ) 
+( "6" 6 P ) ( "7" 7 P ) ( "8" 8 P ) ( "9" 9 P ) ( "10" 10 P ) 
+
+`I R "CMOS1" CONNECTOR.LIB "CON2" 002EB4DF J8  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "CMOS2" CONNECTOR.LIB "CON2" 002EB451 J9  [1]
+"" "" "" "" "" "" "" "HEADER2" "HEADER2"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "MMBTA56" RB FREQUENCY REFERENCE.LIB "PNP BEC_0" 002DA058 Q10  [1]
+"" "" "" "" "" "" "" "SOT-23" "SOT-23"
+( "B" 1 P ) ( "E" 2 P ) ( "C" 3 P ) 
+`I R "10nF" DISCRETE.LIB "CAP" 002E25D9 C10  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "10nF" DISCRETE.LIB "CAP" 002E9284 C11  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "10nF" DISCRETE.LIB "CAP" 002E282E C12  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "10nF" DISCRETE.LIB "CAP" 002E2816 C13  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "220uF 6.3V TANT" DISCRETE.LIB "CAPACITOR" 002EA481 C14  [1]
+"" "" "" "" "" "" "" "" ""
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "300" DISCRETE.LIB "RESISTOR" 002D6F55 R50  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "47pF" DISCRETE.LIB "CAPACITOR" 002EA553 C15  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "300" DISCRETE.LIB "RESISTOR" 002D7503 R51  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "22pF" DISCRETE.LIB "CAPACITOR" 002EA595 C16  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "120" DISCRETE.LIB "RESISTOR" 002DCF91 R20  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "300" DISCRETE.LIB "RESISTOR" 002F06FF R52  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "MMBTA06" RB FREQUENCY REFERENCE.LIB "NPN BEC_0" 002DDF55 Q1  [1]
+"" "" "" "" "" "" "" "SOT-23" "SOT-23"
+( "B" 1 P ) ( "C" 3 P ) ( "E" 2 P ) 
+`I R "300" DISCRETE.LIB "RESISTOR" 002DE056 R21  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "MMBTA06" RB FREQUENCY REFERENCE.LIB "NPN BEC_0" 002DA7D3 Q2  [1]
+"" "" "" "" "" "" "" "SOT-23" "SOT-23"
+( "B" 1 P ) ( "C" 3 P ) ( "E" 2 P ) 
+`I R "0.1uF" DISCRETE.LIB "CAPACITOR" 002E9BA4 C17  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "300" DISCRETE.LIB "RESISTOR" 002D76BC R53  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "MUN2211" RB FREQUENCY REFERENCE.LIB "NPN_I_EBC_1" 002DB9DF Q3  [1]
+"" "" "" "" "" "" "" "SOT-23" "SOT-23"
+( "B" 1 P ) ( "C" 3 P ) ( "E" 2 P ) 
+`I R "0.1uF" DISCRETE.LIB "CAPACITOR" 002E9BC0 C18  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "300" DISCRETE.LIB "RESISTOR" 002DA7B3 R22  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "LM7805C/TO" REGULATOR.LIB "LM7805C/TO" 00001C3E U10  [1]
+"" "" "" "" "" "" "" "TO-220C" "TO-220C"
+( "IN" 1 I ) ( "OUT" 3 O ) ( "GND" 2 S ) 
+`I R "MMBTA56" RB FREQUENCY REFERENCE.LIB "PNP BEC_0" 002DB3B3 Q4  [1]
+"" "" "" "" "" "" "" "SOT-23" "SOT-23"
+( "B" 1 P ) ( "E" 2 P ) ( "C" 3 P ) 
+`I R "0.1uF" DISCRETE.LIB "CAPACITOR" 002D53AA C19  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "BTS5090-1EJA" CUSTOM.LIB "BTS5090-1EJA" 00000929 U11  [1]
+"" "" "" "" "" "" "" "SO-8-EP" "SO-8-EP"
+( "GND" 1 S ) ( "OUT" 8 O ) ( "OUT" 7 O ) ( "OUT" 6 O ) ( "_NC5" 5 S ) 
+( "IS" 4 E ) ( "IN" 2 I ) ( "DEN" 3 I ) ( "VS" 9 I ) 
+`I R "100 1/2W" DISCRETE.LIB "RESISTOR" 00004A14 R23  [1]
+"" "" "" "" "" "" "" "AXIAL0.5" "AXIAL0.5"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "120" DISCRETE.LIB "RESISTOR" 002DD641 R24  [1]
+"" "" "" "" "" "" "" "0805" "0805"
+( "1" 1 P ) ( "2" 2 P ) 
+`I R "LM1117T" REGULATOR.LIB "LM317/TO220" 000005FA U12  [1]
+"" "" "" "" "" "" "" "TO-220C" "TO-220C"
+( "VIN" 3 I ) ( "ADJ" 1 I ) ( "VOUT" 2 O ) 
+`I R "MMBTA06" RB FREQUENCY REFERENCE.LIB "NPN BEC_0" 002DA221 Q5  [1]
+"" "" "" "" "" "" "" "SOT-23" "SOT-23"
+( "B" 1 P ) ( "C" 3 P ) ( "E" 2 P ) 
+`J ( R U1 6 O ) ( R U1 1 I ) ( S "N35710" 5545 ) 
+`J ( R R1 1 P ) ( R C1 1 P ) ( R C2 2 P ) ( S "N35666" 5534 ) 
+`J ( R U2 5 O ) ( R U1 3 I ) ( S "N38309" 5546 ) 
+`J ( R U1 5 O ) ( R C2 1 P ) ( S "N35678" 5531 ) 
+`J ( R U1 8 O ) ( R U1 13 I ) ( S "N35630" 5542 ) 
+`J ( R R2 2 P ) ( R J1 1 P ) ( R R1 2 P ) ( R C1 2 P ) ( S "N35626" 5538 ) 
+`J ( R U4 14 O ) ( R J2 4 P ) ( S "N37352" 5550 ) 
+`J ( R R5 1 P ) ( R J2 1 P ) ( R J2 9 P ) ( R J2 7 P ) ( R J2 5 P ) 
+( R J2 3 P ) ( S "N35974" 8104 ) 
+`J ( R U4 12 O ) ( R J2 8 P ) ( S "N37330" 5547 ) 
+`J ( R U4 15 O ) ( R J2 2 P ) ( S "N37544" 5536 ) 
+`J ( R U4 13 O ) ( R J2 6 P ) ( S "N37348" 5551 ) 
+`J ( R U4 11 O ) ( R J2 10 P ) ( S "N37574" 5548 ) 
+`J ( R U3 3 O ) ( R U2 3 I ) ( R U3 4 I ) ( S "SQ5M" 11868 ) 
+`J ( R U2 2 I ) ( R U3 7 O ) ( R U3 15 I ) ( S "SQ1M" 11869 ) 
+`J ( R U3 13 O ) ( R U2 1 I ) ( R U3 12 I ) ( S "SQ500K" 11870 ) 
+`J ( R U2 15 I ) ( R U3 9 O ) ( S "SQ100K" 11871 ) 
+`J ( R J18 1 P ) ( R R30 2 P ) ( S "MCLR" 6947 ) 
+`J ( R R26 2 P ) ( S "COMB100" 4853 ) 
+`J ( R U8 1 C ) ( R TP11 1 P ) ( R Q4 1 P ) ( S "N2389890" 6070 ) 
+`J ( R R24 1 P ) ( R J14 1 P ) ( S "N3004042" 8091 ) 
+`J ( R J15 1 P ) ( R R25 2 P ) ( R U7 11 B ) ( S "SW_CMOS" 4844 ) 
+`J ( R Q4 2 P ) ( R R30 1 P ) ( R R29 2 P ) ( R U7 18 I ) ( S "MCLR1" 8096 ) 
+`J ( R J18 5 P ) ( R U7 16 B ) ( S "PGC" 6946 ) 
+`J ( R U7 42 B ) ( R TP7 1 P ) ( S "RC4" 8413 ) 
+`J ( R U7 1 B ) ( R TP9 1 P ) ( S "RXD" 8093 ) 
+`J ( R R27 2 P ) ( R J16 1 P ) ( R U7 14 B ) ( S "SW_COMB" 4846 ) 
+`J ( R U7 4 B ) ( S "EN_DIST" 8095 ) 
+`J ( R R26 1 P ) ( R U7 8 B ) ( S "N2999488" 8094 ) 
+`J ( R U7 26 B ) ( R TP10 1 P ) ( S "N3008634" 8417 ) 
+`J ( R U7 30 P ) ( R Y1 3 P ) ( S "OSC1" 6943 ) 
+`J ( R R23 2 P ) ( R J13 1 P ) ( R U7 10 B ) ( S "SW_DIST" 4845 ) 
+`J ( R J17 1 P ) ( R R28 2 P ) ( R U7 15 B ) ( S "SW_SPARE" 8412 ) 
+`J ( R U7 40 B ) ( R U2 9 I ) ( R U4 3 I ) ( S "CG_S2" 8101 ) 
+`J ( R U7 37 B ) ( R TP6 1 P ) ( S "RC3" 8415 ) 
+`J ( R U7 35 B ) ( R TP5 1 P ) ( S "RC1" 8414 ) 
+`J ( R U7 25 B ) ( R J19 2 P ) ( S "V_TBASE" 6949 ) 
+`J ( R R24 2 P ) ( R U7 36 B ) ( S "WS2811" 8092 ) 
+`J ( R U7 43 B ) ( R U3 2 I ) ( R U3 14 I ) ( R R3 2 P ) ( S "EN_DIV" 11679 ) 
+`J ( R U7 17 B ) ( R J18 4 P ) ( S "PGD" 6945 ) 
+`J ( R U7 44 B ) ( R TP8 1 P ) ( S "TXD" 8097 ) 
+`J ( R U7 32 B ) ( R TP4 1 P ) ( S "RC0" 8416 ) 
+`J ( R U7 38 B ) ( R U2 11 I ) ( R U4 1 I ) ( S "CG_S0" 8102 ) 
+`J ( R U7 41 B ) ( R U4 4 I ) ( R U4 5 I ) ( R U2 7 I ) ( R R4 2 P ) 
+( S "CG_EN" 8100 ) 
+`J ( R U7 31 P ) ( R Y1 1 P ) ( S "OSC2" 6944 ) 
+`J ( R U7 39 B ) ( R U2 10 I ) ( R U4 2 I ) ( S "CG_S1" 8103 ) 
+`J ( R U7 34 S ) ( S "_NC34" 1337 ) 
+`J ( R U7 12 S ) ( S "_NC12" 1338 ) 
+`J ( R U7 13 S ) ( S "_NC13" 1339 ) 
+`J ( R U7 33 S ) ( S "_NC33" 1335 ) 
+`J ( R J7 6 P ) ( R U7 23 B ) ( S "RB_BITE" 4847 ) 
+`J ( R R17 2 P ) ( R R21 1 P ) ( R Q2 1 P ) ( S "N3006526" 8422 ) 
+`J ( R R22 1 P ) ( R Q2 2 P ) ( R U7 24 B ) ( S "V_LAMPV" 6795 ) 
+`J ( R J7 5 P ) ( R TP3 1 P ) ( R Q1 1 P ) ( S "N14817" 11337 ) 
+`J ( R Q1 2 P ) ( R R17 1 P ) ( S "N3006603" 8419 ) 
+`J ( R Q3 3 P ) ( R J11 2 P ) ( S "N2997178" 11655 ) 
+`J ( R R14 2 P ) ( R J8 1 P ) ( S "N3060793" 11580 ) 
+`J ( R R16 2 P ) ( R J9 1 P ) ( S "N3060797" 11578 ) 
+`J ( R R18 2 P ) ( R J10 1 P ) ( S "N3061007" 11577 ) 
+`J ( R J12 1 P ) ( R R19 2 P ) ( S "N3014589" 8506 ) 
+`J ( R R20 2 P ) ( R J11 1 P ) ( S "N2997162" 11656 ) 
+`J ( R U6 6 O ) ( R R14 1 P ) ( S "N3060829" 11579 ) 
+`J ( R U6 11 O ) ( R R18 1 P ) ( S "N3061055" 11576 ) 
+`J ( R U6 8 O ) ( R R16 1 P ) ( S "N3060825" 11581 ) 
+`J ( R U6 14 S ) ( R U1 14 S ) ( R U3 16 S ) ( R U4 16 S ) ( R U2 16 S ) 
+( S "VCC" 4825 ) 
+`J ( R U6 9 I ) ( R U6 5 I ) ( R Q3 1 P ) ( R U6 12 I ) ( R U7 5 B ) 
+( S "EN_DIG" 6781 ) 
+`J ( R C14 1 P ) ( R U6 14 S ) ( R R11 2 P ) ( S "N3056813" 11340 ) 
+`J ( R U6 10 I ) ( R U6 13 I ) ( R U6 4 I ) ( R U6 3 O ) ( R U2 4 I ) 
+( R U3 1 I ) ( R TP1 1 P ) ( S "SQ10M" 11867 ) 
+`J ( R R10 2 P ) ( R U6 1 I ) ( S "N3056777" 11342 ) 
+`J ( R U6 2 I ) ( R R12 2 P ) ( R R15 1 P ) ( R R13 2 P ) ( S "N3056881" 11654 ) 
+`J ( R C16 1 P ) ( R TP2 1 P ) ( R R13 1 P ) ( S "N3056959" 11653 ) 
+`J ( R C16 2 P ) ( R C15 1 P ) ( R L2 1 P ) ( S "N3056781" 11338 ) 
+`J ( R C13 2 P ) ( R U5 3 P ) ( R R7 2 P ) ( R L1 1 P ) ( S "N3025061" 10079 ) 
+`J ( R R6 1 P ) ( R C12 1 P ) ( R U5 1 P ) ( S "N3024965" 10080 ) 
+`J ( R R6 2 P ) ( R C10 2 P ) ( S "N3024630" 10082 ) 
+`J ( R C10 1 P ) ( R R7 1 P ) ( S "N3024682" 10084 ) 
+`J ( R C13 1 P ) ( R X5 3 P ) ( S "N3036443" 10701 ) 
+`J ( R C11 1 P ) ( R X3 3 P ) ( S "N3052188" 11210 ) 
+`J ( R J7 1 P ) ( R C11 2 P ) ( S "RB_OUT" 4850 ) 
+`J ( R X1 1 P ) ( R X5 2 P ) ( S "N3037565" 10830 ) 
+`J ( R X5 4 P ) ( R X2 1 P ) ( S "N3058807" 11343 ) 
+`J ( R X2 2 P ) ( R J4 1 P ) ( S "N3050326" 10829 ) 
+`J ( R X1 2 P ) ( R J3 1 P ) ( S "N3050255" 10826 ) 
+`J ( R X3 2 P ) ( R X4 1 P ) ( S "N3050880" 10831 ) 
+`J ( R X4 2 P ) ( R C12 2 P ) ( S "N3050913" 10832 ) 
+`J ( R X6 2 P ) ( R J5 1 P ) ( S "N3050385" 10828 ) 
+`J ( R X5 6 P ) ( R X6 1 P ) ( S "N3050369" 11344 ) 
+`J ( R X7 2 P ) ( R J6 1 P ) ( S "N3050446" 10833 ) 
+`J ( R R8 1 P ) ( R R9 1 P ) ( R X7 1 P ) ( R X5 8 P ) ( S "N3050430" 10834 ) 
+`J ( R X3 4 P ) ( R X8 1 P ) ( S "N3039376" 11339 ) 
+`J ( R X8 2 P ) ( R C15 2 P ) ( S "N3080074" 11866 ) 
+`J ( R U11 1 S ) ( R R38 1 P ) ( S "N03456" 4838 ) 
+`J ( R R33 2 P ) ( R U11 2 I ) ( S "N03943" 4832 ) 
+`J ( R R36 2 P ) ( R U11 3 I ) ( S "N04036" 4828 ) 
+`J ( R U11 5 S ) ( S "_NC5" 1390 ) 
+`J ( R R31 3 P ) ( R R32 1 P ) ( S "N2940742" 6068 ) 
+`J ( R U11 6 O ) ( R U11 7 O ) ( R U11 8 O ) ( R TP15 1 P ) ( R R42 1 P ) 
+( R J7 10 P ) ( R Q1 3 P ) ( S "V24SW" 4848 ) 
+`J ( R R33 1 P ) ( R U7 2 B ) ( S "EN_V24SW" 4840 ) 
+`J ( R R37 1 P ) ( R R46 2 P ) ( R U11 4 E ) ( S "N2974767" 7454 ) 
+`J ( R J20 2 P ) ( R J20 1 P ) ( R TP14 1 P ) ( R J20 6 P ) ( R U11 9 I ) 
+( R C21 1 P ) ( R U9 2 S ) ( R R43 1 P ) ( S "V24" 1340 ) 
+`J ( R U9 4 I ) ( R R31 1 P ) ( R R31 2 P ) ( S "N03188" 4833 ) 
+`J ( R U9 9 S ) ( S "_NC9" 4843 ) 
+`J ( R U9 8 S ) ( S "_NC8" 4842 ) 
+`J ( R R46 1 P ) ( R Q10 1 P ) ( R C28 1 P ) ( S "N05573" 6774 ) 
+`J ( R R35 2 P ) ( R U12 1 I ) ( R R39 1 P ) ( R R39 2 P ) ( R Q5 3 P ) 
+( S "N09067" 4830 ) 
+`J ( R Q5 1 P ) ( R R34 2 P ) ( R Q6 3 P ) ( S "N16119" 4827 ) 
+`J ( R Q6 1 P ) ( R U7 3 B ) ( S "EN_V9SW" 4834 ) 
+`J ( R Q7 2 P ) ( R R49 1 P ) ( R U7 21 B ) ( S "V_I24SW" 7397 ) 
+`J ( R Q7 1 P ) ( R R41 2 P ) ( R Q10 2 P ) ( S "N2975017" 7168 ) 
+`J ( R R50 1 P ) ( R Q8 2 P ) ( R U7 20 B ) ( S "V_V24SW" 4839 ) 
+`J ( R R42 2 P ) ( R R47 1 P ) ( R Q8 1 P ) ( S "N11760" 7396 ) 
+`J ( R R51 1 P ) ( R Q9 2 P ) ( R U7 19 B ) ( S "V_V24" 4829 ) 
+`J ( R Q9 1 P ) ( R R43 2 P ) ( R R48 1 P ) ( S "N2978943" 7394 ) 
+`J ( R R36 1 P ) ( R U10 3 O ) ( R C26 1 P ) ( R C25 1 P ) ( R TP13 1 P ) 
+( R Q7 3 P ) ( R R41 1 P ) ( R Q8 3 P ) ( R Q9 3 P ) ( R Q2 3 P ) 
+( R R10 1 P ) ( R R12 1 P ) ( R R11 1 P ) ( R R20 1 P ) ( R U7 7 S ) 
+( R U7 28 S ) ( R J18 2 P ) ( R R29 1 P ) ( R R23 1 P ) ( R R27 1 P ) 
+( R J19 1 P ) ( R R28 1 P ) ( R R25 1 P ) ( R U8 2 I ) ( R J14 2 P ) 
+( R C20 1 P ) ( R C18 1 P ) ( R C17 1 P ) ( R C19 1 P ) ( R C3 1 P ) 
+( R U4 6 I ) ( R U1 4 I ) ( R U1 2 I ) ( R C4 1 P ) ( R C5 1 P ) 
+( R C6 1 P ) ( R C7 1 P ) ( R U1 12 I ) ( R U1 11 I ) ( R U1 10 I ) 
+( R U2 14 I ) ( R U2 13 I ) ( R U2 12 I ) ( R R5 2 P ) ( R R3 1 P ) 
+( R R4 1 P ) ( S "VDD" 1336 ) 
+`J ( R U10 2 S ) ( R R38 2 P ) ( R C21 2 P ) ( R C22 2 P ) ( R C27 2 P ) 
+( R C26 2 P ) ( R Q5 2 P ) ( R Q6 2 P ) ( R C25 2 P ) ( R C24 2 P ) 
+( R C28 2 P ) ( R R49 2 P ) ( R Q10 3 P ) ( R R53 2 P ) ( R R50 2 P ) 
+( R R47 2 P ) ( R R48 2 P ) ( R R51 2 P ) ( R R37 2 P ) ( R J20 4 P ) 
+( R R32 2 P ) ( R R39 3 P ) ( R U9 1 S ) ( R J20 5 P ) ( R U9 3 S ) 
+( R J20 3 P ) ( R C23 2 P ) ( R R52 2 P ) ( R U6 7 S ) ( R J7 2 P ) 
+( R U5 2 S ) ( R J7 8 P ) ( R J7 4 P ) ( R R22 2 P ) ( R R21 2 P ) 
+( R X5 5 P ) ( R X5 1 P ) ( R J3 2 P ) ( R J4 2 P ) ( R J5 2 P ) 
+( R C9 2 P ) ( R C8 2 P ) ( R J6 2 P ) ( R X7 3 P ) ( R R8 2 P ) 
+( R R9 2 P ) ( R R15 2 P ) ( R C14 2 P ) ( R L2 2 P ) ( R X1 3 P ) 
+( R X2 3 P ) ( R X6 3 P ) ( R J10 2 P ) ( R J9 2 P ) ( R J8 2 P ) 
+( R Q3 2 P ) ( R J12 2 P ) ( R X4 3 P ) ( R J7 3 P ) ( R X5 7 P ) 
+( R X3 1 P ) ( R X8 3 P ) ( R U7 6 S ) ( R U7 29 S ) ( R J13 2 P ) 
+( R J18 3 P ) ( R Y1 2 P ) ( R Q4 3 P ) ( R U8 3 S ) ( R J19 3 P ) 
+( R J15 2 P ) ( R J16 2 P ) ( R J17 2 P ) ( R J14 3 P ) ( R C17 2 P ) 
+( R C18 2 P ) ( R C19 2 P ) ( R C20 2 P ) ( R U1 7 S ) ( R U3 8 S ) 
+( R U4 8 S ) ( R U2 8 S ) ( R R2 1 P ) ( R J1 2 P ) ( R C4 2 P ) 
+( R C5 2 P ) ( R C6 2 P ) ( R C7 2 P ) ( R C3 2 P ) ( S "GND" 1341 ) 
+`J ( R U9 5 O ) ( R U9 6 O ) ( R U9 7 O ) ( R C22 1 P ) ( R U12 3 I ) 
+( R R34 1 P ) ( R U10 1 I ) ( R C24 1 P ) ( R TP12 1 P ) ( R C23 1 P ) 
+( R R44 1 P ) ( S "VPRE" 6956 ) 
+`J ( R R35 1 P ) ( R C27 1 P ) ( R U12 2 O ) ( R TP16 1 P ) ( R R45 1 P ) 
+( R C9 1 P ) ( R C8 1 P ) ( R L1 2 P ) ( R R19 1 P ) ( S "V9SW" 4835 ) 
+`J ( R R45 2 P ) ( R R53 1 P ) ( R R44 2 P ) ( R R52 1 P ) ( R U7 22 B ) 
+( S "V_V9SW" 7393 ) 

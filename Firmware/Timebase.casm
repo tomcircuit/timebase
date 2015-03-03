@@ -1,0 +1,27 @@
+;/////////////////////////////////////////////////////////////////////////////////
+;// Code Generator: BoostC Compiler - http://www.sourceboost.com
+;// Version       : 6.96
+;// License Type  : Pro License
+;// Limitations   : PIC18 max code size:Unlimited, max RAM banks:Unlimited
+;/////////////////////////////////////////////////////////////////////////////////
+
+#include <system.h>
+#include "Timebase.h"
+
+void main()
+
+{
+   while(1);
+0008            label1
+0008  D7FF      	BRA	label1
+
+}
+
+
+////////////////////////////////////////
+// Code with no source :-)
+////////////////////////////////////////
+0000  EF05F000  	GOTO	_startup
+
+000A            _startup
+000A  EF04F000  	GOTO	main

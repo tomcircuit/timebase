@@ -1,0 +1,328 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F44K22 ]
+[d frameptr 4065 ]
+"32 C:\Users\Lab\Documents\Projects\Timebase\xFirmware\Rb_18F_Timebase.X\rb_main.c
+[e E8996 t_state `uc
+RESET 0
+PROVE 1
+WARMUP 2
+OPERATE 3
+STANDBY 4
+FAULT 5
+]
+"33
+[e E9003 t_cgrate `uc
+CG10M 0
+CG5M 1
+CG1M 2
+CG500K 3
+CG100K 4
+CGOFF 5
+]
+"34
+[e E9010 t_fault `uc
+NORM 0
+V24_FAULT 1
+BITE_TIMEOUT 2
+V24SW_FAULT 3
+BITE_FAULT 4
+LAMPV_FAULT 5
+]
+"464 C:\Program Files\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"63 C:\Program Files\Microchip\xc8\v1.34\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 3 0 ]
+"88 C:\Program Files\Microchip\xc8\v1.34\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v1.34\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.34\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"20 C:\Program Files\Microchip\xc8\v1.34\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v1.34\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v1.34\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files\Microchip\xc8\v1.34\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.34\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.34\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v1.34\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"8 C:\Users\Lab\Documents\Projects\Timebase\xFirmware\Rb_18F_Timebase.X\my_adc.c
+[v _adc_init adc_init `(v  1 e 0 0 ]
+"15
+[v _adc_measure adc_measure `(ui  1 e 2 0 ]
+"9 C:\Users\Lab\Documents\Projects\Timebase\xFirmware\Rb_18F_Timebase.X\my_usart.c
+[v _usart1_init usart1_init `(v  1 e 0 0 ]
+"30
+[v _usart1_putchar usart1_putchar `(uc  1 e 1 0 ]
+"36 C:\Users\Lab\Documents\Projects\Timebase\xFirmware\Rb_18F_Timebase.X\rb_main.c
+[v _putch putch `(v  1 e 0 0 ]
+"41
+[v _main main `(v  1 e 0 0 ]
+"7 C:\Users\Lab\Documents\Projects\Timebase\xFirmware\Rb_18F_Timebase.X\ws2812.c
+[v _ws2812_send ws2812_send `(v  1 e 0 0 ]
+"49 C:\Program Files\Microchip\xc8\v1.34\include\pic18f44k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"93
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"142
+[v _ANSELC ANSELC `VEuc  1 e 1 @3898 ]
+"192
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"253
+[v _ANSELE ANSELE `VEuc  1 e 1 @3900 ]
+"6370
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"6656
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"6925
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"7234
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"7476
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"8406
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"8627
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8848
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"9069
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"9290
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+[s S88 . 1 `uc 1 TUN 1 0 :6:0 
+`uc 1 PLLEN 1 0 :1:6 
+`uc 1 INTSRC 1 0 :1:7 
+]
+"9425
+[s S92 . 1 `uc 1 TUN0 1 0 :1:0 
+`uc 1 TUN1 1 0 :1:1 
+`uc 1 TUN2 1 0 :1:2 
+`uc 1 TUN3 1 0 :1:3 
+`uc 1 TUN4 1 0 :1:4 
+`uc 1 TUN5 1 0 :1:5 
+]
+[u S99 . 1 `S88 1 . 1 0 `S92 1 . 1 0 ]
+[v _OSCTUNEbits OSCTUNEbits `VES99  1 e 1 @3995 ]
+[s S221 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"9851
+[s S229 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S234 . 1 `S221 1 . 1 0 `S229 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES234  1 e 1 @3998 ]
+"10689
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+"11150
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+"11530
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"11607
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"11684
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"11761
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @4016 ]
+"12719
+[v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @4024 ]
+"13914
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"13984
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"14051
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"14181
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"14200
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"16693
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"16749
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"16831
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"16906
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"16925
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+"17603
+[v _INTCON INTCON `VEuc  1 e 1 @4082 ]
+"20023
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"20027
+[v _TMR0ON TMR0ON `VEb  1 e 0 @32431 ]
+"354 C:\Program Files\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _dpowers dpowers `C[10]ul  1 s 40 dpowers ]
+"32 C:\Users\Lab\Documents\Projects\Timebase\xFirmware\Rb_18F_Timebase.X\rb_main.c
+[v _state state `E8996  1 e 1 0 ]
+[v _prev_state prev_state `E8996  1 e 1 0 ]
+"33
+[v _comb_rate comb_rate `E9003  1 e 1 0 ]
+"34
+[v _fault_code fault_code `E9010  1 e 1 0 ]
+"41
+[v _main main `(v  1 e 0 0 ]
+{
+"616
+[v main@temp_int_171 temp_int `ui  1 a 2 48 ]
+"598
+[v main@temp_int_165 temp_int `ui  1 a 2 54 ]
+"570
+[v main@temp_int_157 temp_int `ui  1 a 2 58 ]
+"551
+[v main@temp_int temp_int `ui  1 a 2 56 ]
+"47
+[v main@led_color led_color `ul  1 a 4 71 ]
+"45
+[v main@run_counter run_counter `ul  1 a 4 60 ]
+"48
+[v main@prev_color prev_color `ul  1 a 4 50 ]
+"43
+[v main@st_counter st_counter `ui  1 a 2 84 ]
+"44
+[v main@iter_counter iter_counter `ui  1 a 2 82 ]
+"60
+[v main@meas_v24sw meas_v24sw `ui  1 a 2 77 ]
+"61
+[v main@meas_lampv meas_lampv `ui  1 a 2 69 ]
+"62
+[v main@meas_caset meas_caset `ui  1 a 2 66 ]
+"59
+[v main@meas_v24 meas_v24 `ui  1 a 2 64 ]
+"52
+[v main@sw_comb_count sw_comb_count `uc  1 a 1 81 ]
+"51
+[v main@sw_cmos_count sw_cmos_count `uc  1 a 1 80 ]
+"50
+[v main@sw_dist_count sw_dist_count `uc  1 a 1 79 ]
+"57
+[v main@read_portd read_portd `uc  1 a 1 76 ]
+"55
+[v main@diag_bite_count diag_bite_count `uc  1 a 1 75 ]
+"53
+[v main@sw_comb_ready sw_comb_ready `uc  1 a 1 68 ]
+"721
+} 0
+"7 C:\Users\Lab\Documents\Projects\Timebase\xFirmware\Rb_18F_Timebase.X\ws2812.c
+[v _ws2812_send ws2812_send `(v  1 e 0 0 ]
+{
+"9
+[v ws2812_send@j j `uc  1 a 1 8 ]
+"7
+[v ws2812_send@led led `ul  1 p 4 0 ]
+"41
+} 0
+"9 C:\Users\Lab\Documents\Projects\Timebase\xFirmware\Rb_18F_Timebase.X\my_usart.c
+[v _usart1_init usart1_init `(v  1 e 0 0 ]
+{
+[v usart1_init@brgval brgval `ui  1 p 2 0 ]
+"28
+} 0
+"464 C:\Program Files\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"528
+[v printf@val val `ul  1 a 4 32 ]
+"466
+[v printf@ap ap `[1]*.39v  1 a 2 36 ]
+"504
+[v printf@prec prec `i  1 a 2 30 ]
+"499
+[v printf@c c `c  1 a 1 39 ]
+"508
+[v printf@flag flag `uc  1 a 1 38 ]
+"464
+[v printf@f f `*.25Cuc  1 p 2 22 ]
+"1541
+} 0
+"36 C:\Users\Lab\Documents\Projects\Timebase\xFirmware\Rb_18F_Timebase.X\rb_main.c
+[v _putch putch `(v  1 e 0 0 ]
+{
+[v putch@data data `uc  1 a 1 wreg ]
+[v putch@data data `uc  1 a 1 wreg ]
+"38
+[v putch@data data `uc  1 a 1 1 ]
+"39
+} 0
+"30 C:\Users\Lab\Documents\Projects\Timebase\xFirmware\Rb_18F_Timebase.X\my_usart.c
+[v _usart1_putchar usart1_putchar `(uc  1 e 1 0 ]
+{
+[v usart1_putchar@ch ch `uc  1 a 1 wreg ]
+[v usart1_putchar@ch ch `uc  1 a 1 wreg ]
+[v usart1_putchar@ch ch `uc  1 a 1 0 ]
+"39
+} 0
+"8 C:\Program Files\Microchip\xc8\v1.34\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"11
+[v ___llmod@counter counter `uc  1 a 1 21 ]
+"8
+[v ___llmod@dividend dividend `ul  1 p 4 13 ]
+[v ___llmod@divisor divisor `ul  1 p 4 17 ]
+"26
+} 0
+"8 C:\Program Files\Microchip\xc8\v1.34\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"8
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"31
+} 0
+"15 C:\Users\Lab\Documents\Projects\Timebase\xFirmware\Rb_18F_Timebase.X\my_adc.c
+[v _adc_measure adc_measure `(ui  1 e 2 0 ]
+{
+[v adc_measure@channel channel `uc  1 a 1 wreg ]
+"17
+[v adc_measure@retval retval `ui  1 a 2 4 ]
+"15
+[v adc_measure@channel channel `uc  1 a 1 wreg ]
+"20
+[v adc_measure@channel channel `uc  1 a 1 3 ]
+"39
+} 0
+"8
+[v _adc_init adc_init `(v  1 e 0 0 ]
+{
+"13
+} 0
+"8 C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"31
+} 0

@@ -1,6 +1,0 @@
-// SourceBoost Linker Function Resource Usage Dump
-
-#GLOBAL:"global",line = 0,ram = 0.0,rom = 0;
-main(void):"C:\Users\Lab\Documents\Projects\Timebase\Timebase.c",line = 6,ram = 0.0,rom = 2;
-_startup(void):"NoSourceFile",line = 0,ram = 0.0,rom = 4;
-#HEAP_BLOCK: 0, 1, 1535;

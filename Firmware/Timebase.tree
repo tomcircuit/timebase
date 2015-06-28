@@ -1,5 +1,0 @@
-// SourceBoost Linker Call Tree Dump
-
-_startup:"NoSourceFile",line = 0
-{  main:"C:\Users\Lab\Documents\Projects\Timebase\Timebase.c",line = 4
-  {  }}
